@@ -1,0 +1,24 @@
+.Loading {
+  text-align: center;
+}
+
+.loading-icon {
+  width: 160px;
+  height: 160px;
+  margin-top: 240px;
+  animation: spin infinite 20s linear;
+}
+
+.loading-text {
+  font-size: 24px;
+  margin-top: 32px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

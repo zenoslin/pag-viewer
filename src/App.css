@@ -1,0 +1,15 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 1280px;
+  height: 720px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #000;
+  background: #eaeaea;
+}
